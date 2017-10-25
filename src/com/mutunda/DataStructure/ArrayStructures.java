@@ -14,7 +14,22 @@ public class ArrayStructures {
 
     public String linearSearch(int value){
 
-        return new String("Mutunda");
+        String indexes = new String("Values found at index: ");
+        boolean hasIndex = false;
+
+        for (int i = 0; i < arraySize ; i++) {
+            if(theArray[i] == value ){
+                hasIndex = true;
+                indexes +=  " " + i ;
+            }
+        }
+
+        if (hasIndex == false){
+            indexes += "hmmm none";
+        }
+
+        return indexes;
+
     }
 
     public int getValueByIndex(int index) {

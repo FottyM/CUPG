@@ -101,3 +101,7 @@ crashlytics-build.properties
 fabric.properties
 .idea
 .idea/
+/src/Food.java
+/src/Suji.java
+/src/Tuna.java
+
