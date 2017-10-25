@@ -1,9 +1,8 @@
-package com.mutunda.solutions;
+package com.mutunda.Solutions.;
 
 import com.mutunda.ListNode.ListNode;
 
-import java.util.Arrays;
-import java.util.List;
+
 
 
 public class Solutuion {

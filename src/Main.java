@@ -13,7 +13,11 @@ public class Main {
          int value = arrayStructures.getValueByIndex(4);
          System.out.println( value );
          boolean contains = arrayStructures.containsValue(12);
-        System.out.println(contains);
+         System.out.println(contains);
+         arrayStructures.deleteAtindex(5);
+         arrayStructures.printArray();
+         arrayStructures.push(55);
+         arrayStructures.printArray();
 
     }
 }
