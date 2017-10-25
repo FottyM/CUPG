@@ -1,4 +1,4 @@
-package com.mutunda.Solutions.;
+package com.mutunda.Solutions;
 
 import com.mutunda.ListNode.ListNode;
 
