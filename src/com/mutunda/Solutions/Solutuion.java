@@ -1,11 +1,15 @@
 package com.mutunda.solutions;
 
+import com.mutunda.ListNode.ListNode;
+
 import java.util.Arrays;
+import java.util.List;
 
 
 public class Solutuion {
 
-    /*Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+    /*
+    * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
     * You may assume that each input would have exactly one solution, and you may not use the same element twice.
     */
 
@@ -21,4 +25,9 @@ public class Solutuion {
         return new int[]{};
     }
 
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+        return l1;
+    }
 }
